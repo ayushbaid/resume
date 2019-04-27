@@ -1,0 +1,227 @@
+\documentclass[margin,line,hidelinks]{res}
+
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{color}
+\usepackage{lettrine}
+\oddsidemargin = -.5in
+\evensidemargin = -.5in
+
+\textwidth = 6.0in
+\itemsep=0in
+\parsep=0in
+% if using pdflatex:
+%\setlength{\pdfpagewidth}{\paperwidth}
+%\setlength{\pdfpageheight}{\paperheight} 
+
+\newenvironment{list1}{
+  \begin{list}{\ding{113}}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.17in}}}{\end{list}}
+\newenvironment{list2}{
+  \begin{list}{$\bullet$}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.2in}}}{\end{list}}
+
+\tolerance=1
+\emergencystretch=\maxdimen
+\hyphenpenalty=10000
+\hbadness=10000
+
+\pagenumbering{gobble}
+
+\begin{document}
+
+%\name{\textbf{\huge{Alankar Kotwal}} \vspace*{.05in} \newline  {\sc Senior Undergraduate}\vspace*{.1in}}
+\name{\textbf{\huge{Ayush Baid}} \vspace*{.1in} }
+
+\begin{resume}
+\section{\sc Contact Information}
+\vspace{.05in}
+\begin{tabular}{@{}p{2.9in}p{.5in}p{3in}}
+\#599, 6G Cross Road 
+& \multicolumn{1}{r}{\it Phone:}  
+&(+91) 916 778 3072 \\            
+Koramangala 
+&\multicolumn{1}{r}{\it E--Mail:}& \href{mailto:ayushrakeshbaid@gmail.com}{\textcolor{blue}{ayushrakeshbaid@gmail.com}} \\ 
+Bangalore, India 560 095  \\     
+\end{tabular}
+
+\section{\sc Research Interests}
+Deep Learning, Computer Vision, and Probabilistic Graphical Models
+
+\section{\sc Education}
+{\bf \href{http://www.iitb.ac.in/}{\textcolor{blue}{Indian Institute of Technology Bombay}}}, Mumbai, India \hfill {\it 2012 -- 2017} \\
+\vspace*{-.1in}
+\begin{list1}
+\item[] Bachelor \& Master of Technology, Department of \href{http://www.ee.iitb.ac.in/}{\textcolor{blue}{Electrical Engineering}}
+\begin{list2}
+\vspace*{.05in}
+\item \textbf{Major CGPA:}  \ 9.17/10
+\item \textbf{Minor Degree:}  Department of \href{http://www.cse.iitb.ac.in/}{\textcolor{blue}{Computer Science \& Engineering}}
+\end{list2}
+\end{list1}
+
+
+\section{\sc Publications}
+\begin{list2}
+\item Pathak, A., Upadhyay, U., Baid, A., Merchant, S. N., \& Awate, S. P., {\em Generative Graphical Modeling and Variational Bayes EM for Simultaneous Removal of Smoke, Specular Highlights, and Noise in Laparoscopic Images}, Submitted to  \href{https://www.journals.elsevier.com/medical-image-analysis}{\textcolor{blue} {Medical Image Analysis}}. Preprint \href{https://drive.google.com/open?id=1w8-2TKftgZ79kkmx5uWLZJTpzZ7d8vum}{\textcolor{blue} {here}}.
+\item Baid, A., Kotwal, A., Bhalodia, R., Merchant, S. N., \& Awate, S. P., {\em Joint desmoking, specularity removal, and denoising of laparoscopy images via graphical models and Bayesian inference}, Proc. of the \href{http://biomedicalimaging.org/2017/}{\textcolor{blue} {IEEE International Symposium on Biomedical Imaging}}, 2017. Paper \href{https://ieeexplore.ieee.org/abstract/document/7950623/}{\textcolor{blue} {here}}.
+\end{list2}
+
+\section{\sc Research Projects}
+
+{\bf A Bayesian Framework For Enhancing Laparoscopy Images} \hfill {\it 2016 -- 2017} \\
+{\em Degree Thesis} \\
+{\em Guide: \href{https://www.cse.iitb.ac.in/~suyash}{\textcolor{blue}{Prof. Suyash Awate}}, CSE, IITB and \href{https://www.ee.iitb.ac.in/wiki/faculty/merchant}{\textcolor{blue}{Prof. Shabbir Merchant}}, EE, IITB} \\
+\vspace*{-.13in}
+\begin{list1}
+\item[]
+Worked on alleviating the degradation in laparoscopy images due to surgical smoke, specular highlights, and random noise. Introduced a unified Bayesian graphical model to model the uncorrupted image and the smoke transmission map. Designed novel priors to preserve the natural colors and texture by learning color distributions and sparse patch-based dictionary. Used variational Bayes expectation maximization to infer the uncorrupted image. Results on simulated and real-world laparoscopic images show that our joint estimation improves over the state-of-the-art techniques qualitatively and quantitatively. Thesis \href{https://github.com/ayushbaid/masters_thesis/blob/master/mainrep.pdf}{\textcolor{blue} {here}}.
+\end{list1}
+
+\vspace*{-0.1in}
+{\bf Temporal Super Resolution in Videos} \hfill {\it Spring 2015} \\
+{\em Guide: \href{https://www.ee.iitb.ac.in/~animesh/}{\textcolor{blue}{Prof. Animesh Kumar}} and \href{https://www.ee.iitb.ac.in/~sc/}{\textcolor{blue}{Prof. Subhashish Choudhary}}, EE, IITB} \\
+\vspace*{-.15in}
+\begin{list1}
+\item[] Explored the use of signal interpolation techniques to increase the frame rate of the video input. Used the Papoulis-Gerchberg method to perform pixel-wise interpolation across the temporal axis. On observing the noise and non-smooth motion in the results, performed interpolation of motion vectors, using it as a proxy for the actual physical motion of objects.
+\end{list1}
+
+\section{\sc Professional \\ Experience}
+{\bf Goldman Sachs India} \hfill {\it Summer 2017 -- Present} \\
+{\em Analyst, Risk Division} \\
+\vspace*{-.15in}
+\begin{list1}
+\item[] Working with the platforms team with focus in the distributed computing space. Developed an end-to-end system for an upcoming regulatory deliverable. Designed a microservice architecture based system that was more robust and scalable than exising systems.
+\item[] Currently working on optimizations for the packaging algorithm for calculations on the compute cluster by using mathematical models to predict the time and memory requirement of the tasks.
+\end{list1}
+
+\vspace*{-0.1in}
+\pagebreak
+{\bf Carsense} \hfill {\it Spring 2017 } \\
+{\em Signal Processing Intern	} \\
+\vspace*{-.15in}
+\begin{list1}
+\item[] Designed an algorithm to derive the engine r.p.m using data from a proprietary sensing technology. Used digital filters to clean the input data and modeled the shift in r.p.m as a Gaussian distribution to obtain robust and stable r.p.m estimates.
+\end{list1}
+
+{\bf FOSSEE Scilab Toolbox} \hfill {\it 2015 -- 2017} \\
+{\em Open Source Contributor} \\
+\vspace*{-.15in}
+\begin{list1}
+\item[] Worked on the \href{https://scilab.in/fossee-scilab-toolbox/signal-processing-toolbox}{\textcolor{blue}{signal processing toolbox}}, emulating the equivalent in Matlab, to provide an open-source alternative. Studied and implemented algorithms in domains like pseudospectrum evaluation and digital filter designs.
+\end{list1}
+
+{\bf Sony Corporation, Japan} \hfill {\it Summer 2015 } \\
+{\em Intern, Test Technolgy}\\
+\vspace*{-.15in}
+\begin{list1}
+\item[] Developed a new cloud-based testing platform for Android applications. Designed an on-demand test device allocation service and upgraded the existing local testing framework to use the cloud-based resource. Developed stubs in the Android source code to work around restrictions in Android's native emulators.
+\end{list1}
+
+\vspace*{-0.1in}
+
+
+\section{\sc Key \\Projects}
+{\bf Point Set Registriation} \hfill {\it Spring 2016} \\
+{\em Guide: \href{https://www.cse.iitb.ac.in/~ajitvr}{\textcolor{blue}{Prof. Ajit Rajwade}}, CSE, IITB \hfill CS763: Compute Vision} \\
+\vspace*{-.15in}
+\begin{list1}
+\item[] Designed an algorithm to perform a smooth segmentation on images of fish and autonomously place boundary points to efficiently capture the curvature. Implemented the iterative closest point (ICP) matching, robust point matching, and kernel correlation algorithm to perform point cloud registration with templates and classify species of fish.
+\end{list1}
+
+\vspace*{-0.1in}
+
+{\bf Brain MRI segmentation} \hfill \textit{Spring 2016} \\
+{\em Guide: \href{https://www.cse.iitb.ac.in/~suyash}{\textcolor{blue}{Prof. Suyash Awate}}, CSE, IITB \hfill CS736: Medical Image Processing} \\
+\vspace*{-.15in}
+\begin{list1}
+\item[] Implemented the fuzzy c-means algorithm to segment a brain MRI image
+corrupted with bias and noise. To improve the acccuracy, modelled the components using Gaussian mixture model and used expectation-maximization algorithm to perform the segmentation.
+\end{list1}
+
+\vspace*{-0.1in}
+
+
+{\bf Spoken Digit Recognition} \hfill \textit{Fall 2015} 
+\\
+{\em Guide: \href{https://www.ee.iitb.ac.in/wiki/faculty/prao}{\textcolor{blue}{Prof. Preeti Rao}}, EE, IITB \hfill EE697: Speech Processing} \\
+\vspace*{-.15in}
+\begin{list1}
+\item[] Performed recognition on mel-filter cepstral coefficients (MFCCs) using bag-of-frames and vector quantization techniques. Improved accuracy by factoring in temporal variability of speech using dynamic time warping.
+\end{list1}
+
+
+\vspace*{-0.1in}
+
+{\bf Processor Design} \hfill \textit{Fall 2014} \\
+{\em Guide: \href{https://www.ee.iitb.ac.in/~viren/}{\textcolor{blue}{Prof. Virendra Singh}}, EE, IITB \hfill EE309: Microprocessors} \\
+\vspace*{-.15in}
+\begin{list1}
+\item[] Designed and implemented a multi-cycle RISC processor with LC-3b instruction set. Following this, designed and simulated a 6 stage pipelened RISC microprocessor with forwarding and hazard detection using the Little Computer Architecture.
+\end{list1}
+
+\section{\sc Teaching \\ and Mentoring}
+{\bf Academic Support Volunteer, Make A Difference} \hfill \textit{2018 -- 2019} \\
+\vspace*{-.15in}
+\begin{list1}
+	\item[] \href{https://makeadiff.in/}{\textcolor{blue}{Make A Difference}} is a volunteer run NGO helping at-risk children in India and providing all-round support and help. I teach english to students in sixth grade at a shelter home.
+\end{list1}
+
+\vspace*{-0.1in}
+
+{\bf Teaching Assistant, IITB} \hfill \textit{2016 -- 2017} \\
+\vspace*{-.15in}
+\begin{list1}
+	\item[] \textit{EE223: Data Analysis and Interpretation} and \textit{EE210: Signals and system}. Conducted tutorials, and graded exams for a class of over 100 students.
+\end{list1}
+
+\vspace*{-0.1in}
+
+{\bf Institute Student Mentor, IITB} \hfill \textit{2016 -- 2017} \\
+\vspace*{-.15in}
+\begin{list1}
+	\item[] Mentored 11 freshmen students focusing on academic and holistic development, and helping the transition to campus. Part of 82 member team, selected on the basis on peer review and interviews.
+\end{list1}
+
+
+\section{\sc Achievements \\ and Awards}	
+\begin{list2}
+\item Awarded the Undergraduate Research Award at IITB for my thesis \hfill \textit{2017}
+\item Secured first position in the app dev contest for Indian govt's affordable tablet program \hfill \textit{2014} 
+\item Secured national rank 583 in IIT-JEE exam, out of half a million candidates \hfill \textit{2012}
+\item Ranked in top 50 in \href{https://technothlon.techniche.org/}{\textcolor{blue}{Technothlon}}, an international competition hosted by IIT Guwahati \hfill \textit{2009}
+\end{list2}
+
+
+\section{\sc Key \\Coursework} 
+\begin{list1}
+\item[\strut\hspace{0.5cm}\hypertarget{crselst}{\textbf{Computer Sciences and Engineering}}]
+\item[] Advanced Machine Learning, Computer Vision, Medical Image Processing, Digital Image Processing, Operating Systems, Design and Analysis of Algorithms, Database and Information Systems, Neural Networks and Deep Learning (\href{https://www.coursera.org/account/accomplishments/certificate/EFCWGMGV337K}{\textcolor{blue}{Coursera certificate}}),  Improving Deep Neural Networks (\href{https://www.coursera.org/account/accomplishments/certificate/J78VLD3BAP5U}{\textcolor{blue}{Coursera certificate}})
+\item[\strut\hspace{0.5cm}\textbf{Electrical Engineering}]
+\vspace{0.05in}
+\item[] First Course in Optimization, Markov Chains and Queuing Systems, Number Theory and Cryptography, Speech Processing, Information Theory and Coding, Adaptive Signal Processing, Probability and Random Processes
+\end{list1}
+
+\section{\sc Technical \\Skills} 
+\begin{tabular}{@{}p{1.3in}p{4.3in}}
+\textbf{Programming} & C/C++, Python, Java, Scala, \LaTeX \\  
+\vspace*{-0.06in}
+\textbf{Software Packages} & 
+\vspace*{-0.06in}
+Tensorflow, NumPy, SciPy, OpenCV\\ 
+\vspace*{-0.06in} 
+\end{tabular}
+
+
+\section{\sc Other \\Interests}
+I like biking, trekking, reading fiction, and cooking. I especially enjoy rock and heavy metal music. I am an avid soccer fan and regularly watch and play over the weekends.
+
+\end{resume}
+\end{document}
