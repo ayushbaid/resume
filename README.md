@@ -1,2 +1,2 @@
 # resume
-Resume in latex
+Repositories to host the resumes
